@@ -2,11 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lesson 3</title>
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="ajax-block"></div>
-    <button id="ajax-get">Async get data</button>
-<script src="script.js"></script>
+    <header>
+        <div class="logo">Интернет-магазин</div>
+        <div class="in-backet">
+            <button class="btn-cart" type="button" onclick="backetActive()">Корзина</button>
+            <div class="backet" id="backet"></div>
+        </div>
+    </header>
+    <main class="main">
+        
+        <div class="products"></div>
+    </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
